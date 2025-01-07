@@ -4,10 +4,10 @@ var config =
     "sites":
     [
         { "url": "https://google.com",                                              "text": "G"    },
-        { "url": "https://boards.4chan.org/vg/#catalog",                            "text": "/vg/" },
+        { "url": "https://Blutopia.cc",                                              "text": "Blu" },
         { "url": "https://destiny.gg",                                              "text": "d.gg" },
         { "url": "https://twitch.tv",                                               "text": "T.TV" },
-        { "url": "http://wiki.teamliquid.net/starcraft2/Main_Page",                "text": "TL"   },
+        { "url": "https://reddit.com",                                              "text": "R"   },
     ]
 }, d = document;
 
