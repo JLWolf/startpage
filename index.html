@@ -14,7 +14,11 @@
                     <ul></ul> 
                 </div>   
                 <div id="wrapper">
-                    <div id="sites"></div>
+                    <div id="sites">
+                        <form method="GET" accept-charset="UTF-8" action="https://google.com/search?q=%s" id="searchsys" name="searchsys" onsubmit="javascript:document.searchsys.query.value=document.searchsys.keyword.value;">
+                        <input type="hidden" name="query"><input id="search" type="text" class="width_update_class" name="keyword" autofocus="" autocomplete="off" placeholder="Search...">
+                        <input value="sb" type="hidden" name="frm"><input value="process_search" type="hidden" name="cmd"><input value="english" type="hidden" name="language">
+                    </div>
                 </div>
             </div>
         </div>
